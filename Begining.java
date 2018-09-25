@@ -13,7 +13,7 @@ import java.util.Scanner;
 			b= input.nextFloat();
 			c= input.nextFloat();
 			if(a==0 || b==0 || c==0) {
-				System.out.println("trikampis yra negzistuojantis");
+				System.out.println("trikampis yra negzistuojantis, gal gerete?");
 			}
 			else {
 				if((a*a)+(b*b)==(c*c) || (b*b)+(c*c)==(a*a) || (a*a)+(c*c)==(b*b)){
